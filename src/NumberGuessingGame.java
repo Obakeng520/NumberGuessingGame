@@ -8,11 +8,11 @@ public class NumberGuessingGame {
 
         int numberToGuess = random.nextInt(10) + 1;
         int numberOfAttempts = 0;
-        int maxAttempts = 10;
+        int maxAttempts = 5;
         boolean hasGuessedCorrectly = false;
 
         System.out.println("Welcome to the Codveda Number Guessing Game!");
-        System.out.println("I have selected number a number between 1 and 100.");
+        System.out.println("I have selected number a number between 1 and 10.");
         System.out.println("You have " + maxAttempts + "attempts to guess it");
 
         while(numberOfAttempts < maxAttempts && !hasGuessedCorrectly)
